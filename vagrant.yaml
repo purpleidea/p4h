@@ -11,7 +11,7 @@
 :docker: false
 :cachier: false
 :vms:
-- :name: class1
+- :name: lesson1
 :namespace: p4h
 :count: 0
 :username: ''
