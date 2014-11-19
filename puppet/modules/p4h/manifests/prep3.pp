@@ -35,6 +35,10 @@ Bonus:
 ** 'notify' out the string: 'onepotatotwopotato'
 ** ensure where the 'two' portion of the above string comes from the $two var
 
+Hint:
+* the idea is to quickly test string interpolation, and to get you hacking...
+* if you don't understand the instructions exactly, different solutions are ok!
+
 Happy hacking!\n",
 	}
 
