@@ -30,6 +30,12 @@ For this lesson, please do the following:
 *** It happens when you have dual primary clusters that export to a third party
 **** It can also happen with N-ary clusters too :)
 
+Hint:
+* This works because the exported resources don't directly cause duplicates
+** They contain a postfixed cluster-unique key, such as the $hostname
+*** They then parse off the unique key, and then resolve the type
+**** The types don't conflict, because they're added with `ensure_resource`
+
 Bonus:
 * Check that your example still works when you have three identical exports
 * Make sure you wrap the exported defintions in 'plain' types where appropriate
