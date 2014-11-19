@@ -37,6 +37,8 @@ Bonus:
 
 Level 42:
 * If it does not work perfectly inside of omv, patch omv and/or Exec['again']
+* Implement a patch to Exec['again'] that adds a `TCP-backoff` style algorithm
+** https://en.wikipedia.org/wiki/Exponential_backoff
 
 Happy hacking!\n",
 	}
