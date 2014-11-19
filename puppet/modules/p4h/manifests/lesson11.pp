@@ -35,6 +35,11 @@ For this lesson, please do the following:
 Bonus:
 * Are there scenarios where the duplicate alias technique is used in a class?
 
+Level 42:
+* Someone asked if you can use this technique with exported resources
+** Test it out... One use case is multiple hosts that provide a unique resource
+*** My guess is that it should work, but would require manual error clearing!
+
 Happy hacking!\n",
 	}
 
