@@ -32,6 +32,10 @@ For this lesson, please do the following:
 * Use the `parseyaml` function with the ruby .to_yaml function in a template
 ** Return a more complex data type to puppet
 
+Hint:
+* File directory type names should have a trailing slash
+** This is logical and avoids confusion between ordinary file names
+
 Bonus:
 * Perform a complex transformation in the template
 * Return a hash
