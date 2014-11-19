@@ -22,7 +22,8 @@ class p4h::prep1() {
 	file { '/root/README':
 		content => "##prep1
 For this lesson, please do the following:
-* should try installing the 'sl' package with puppet.
+* try installing the 'sl' package with puppet
+** if 'sl' is not available, or you dislike this package, pick another one :)
 
 Bonus:
 * Install three different packages, in three lines of code
