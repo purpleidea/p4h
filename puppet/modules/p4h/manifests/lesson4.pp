@@ -30,7 +30,11 @@ For this lesson, please do the following:
 
 Bonus:
 * Find at least four different solutions to the above problem
-* Try doing recursion in puppet
+* Try doing recursion in puppet (very optional!)
+
+Hint:
+* You should be able to find an example of recursion on my blog to copy+paste
+** It's really not super important to do this, but it might be a fun hack to do
 
 Level 42:
 * Write a fibonnacci series `type` (not function) in puppet (without cheating)
