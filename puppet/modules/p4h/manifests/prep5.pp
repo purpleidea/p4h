@@ -30,6 +30,7 @@ For this lesson, please do the following:
 ** use those parameters in the text of the file that your class creates
 
 Hint:
+* think about classes as singletons and not as the imperative classes you know
 * the class will have to have the same module prefix as this class (p4h)
 * if the class is named p4h::foo, it should exist in a foo.pp file in this dir
 * remember that classes are singletons, design with that in mind
