@@ -23,7 +23,8 @@ class p4h::prep7() {
 		content => "##prep7
 For this lesson, please do the following:
 * create two 'defined types' (aka a type)
-* types can't be nested inside classes, so create them in separate files
+** use the native puppet DSL, *don't* write them in ruby!
+* types shouldn't be nested inside classes, so create them in separate files
 * your types should create a file and perhaps do something else as well
 * use the types twice, and make sure there's no conflict (duplicate definition)
 * create a before/require dependency between a type and something else
