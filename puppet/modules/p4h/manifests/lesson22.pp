@@ -26,6 +26,7 @@ For this lesson, please do the following:
 
 Bonus:
 * Help me with with python threading/concurrency programming for puppet-poke
+** Note: this is already in progress, thanks Pulp hackers!
 * Hydrate yourself with a glass of beautiful tap water
 
 Happy hacking!\n",
