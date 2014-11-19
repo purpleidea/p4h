@@ -37,6 +37,7 @@ Bonus:
 * Submit patches to puppet-lint so it is less dumb
 * Hang out in #p4h and help others (without directly doing their homework)
 * Email {my,his,your,their}\ boss\, etc to tell them you liked this course!
+* Send me Red Hat points :)
 * Enjoy the hack, and keep it up!
 
 Level 42:
