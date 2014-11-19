@@ -23,9 +23,12 @@ class p4h::lesson7() {
 		content => "##lesson7
 For this lesson, please do the following:
 * Read and fool around with hiera briefly
-** We'll cover this again in the data-in-modules section where it's easy to use
+** Use the data-in-modules technique to make it easier to hack and push code!
+** We'll cover this again in the data-in-modules section too!
 *** Try and pass some data into a class and have it picked up
 **** Think about what constitues a sane hierarchy and what's insane...
+***** What is the lookup/resolution sequence for picking a class parameter?
+* Remember that you can use certain facts in the hiera, hierarchy!
 
 Bonus:
 * Can you think of a security issue involving using facts in your hierarchy ?
