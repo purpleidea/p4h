@@ -25,9 +25,15 @@ For this lesson, please do the following:
 * Build a file with whole/frag
 * Name at least one piece of software that requires this technique
 
+Hint:
+* You'll have to: `import 'common'` (at the top of your file) to use whole/frag
+** This is an edge case! Don't use the `import` statement anywhere else...
+*** (Except if you're gluing together node definitions)
+
 Bonus:
 * File a bug against a piece of software that would require this technique
 ** (it's usually a bug or iow, the lack of an include.d/ style feature)
+* There is a competing module called 'concat', feel free to compare to this one
 
 Happy hacking!\n",
 	}
