@@ -29,9 +29,14 @@ For this lesson, please do the following:
 ** You can use the following interfaces
 ** Exists (ls_cmd): `ls /tmp/clean/$element`
 ** Delete (rm_cmd): `rm /tmp/clean/$element`
+*** What is required from a piece of software so that you can do this?
 * Remember that you can use external languages for doing local work
 ** Python is recommended
 *** Be careful not to metaprogram!
+
+Hint:
+* What does the --xml flag to the `gluster` command line tool do?
+* What is the format of the output from the `ipa user-show` command?
 
 Bonus:
 * Name three different pieces of software which probably require this technique
