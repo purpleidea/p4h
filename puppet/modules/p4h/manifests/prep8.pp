@@ -27,6 +27,8 @@ For this lesson, please do the following:
 * use the onlyif attribute
 * use the unless attribute
 * use the creates attribute
+* don't use all of these three attributes together in the same exec type
+** (unless it really makes sense to!)
 * use bash to write the conditions for some of these attributes
 * use the bash 'test' program (man test)
 * find out which shell is used to run commands
