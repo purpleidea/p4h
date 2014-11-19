@@ -24,6 +24,15 @@ class p4h::lesson3() {
 For this lesson, please do the following:
 * Know about the `concat`, `count`, `delete`, `flatten`, `getvar`, `has_key`,
 `join`, `keys`, `member`, `merge`, `parseyaml` and `type` functions from stdlib
+* Try out some of these if you're not sure how they work
+
+Hint:
+* You can run these locally on your machine (careful!) with a command like:
+alias pa='puppet apply --modulepath=~/bin/stdlib/ --libdir=~/bin/stdlib/lib/'
+** you'll need to clone in the puppetlabs-stdlib directory into your ~/bin/
+** the code you'll want to run can be in a foo.pp file
+** run it with: `pa foo.pp`
+*** work in a vagrant vm if you want to be more careful!
 
 Bonus:
 * Can you think about what `getvar` is useful for ?
