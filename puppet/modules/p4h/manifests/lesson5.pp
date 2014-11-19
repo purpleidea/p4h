@@ -37,9 +37,18 @@ For this lesson, please do the following:
 ** Try dropping a similar one into $modulename/facts.d/
 *** These would be better than 'original' facts, except for one crucial issue:
 **** They can't reference other facts :(
+***** These are called 'external facts'
+
+Hint:
+* If you're not using structured facts (or even if you are) you can still:
+** Have a fact that is a comma separated list of fact names you want to iterate
+*** These can then be retrieved inside your manifest with the `getvar` function
 
 Bonus:
-* Write a structured fact and test it with a notify or similar
+* All facts can now have types instead of only returning strings
+** These are called 'structured facts'
+*** Write a structured fact and test it with a notify or similar
+**** Valid types for a structured fact can also include hashes and arrays!
 
 Happy hacking!\n",
 	}
