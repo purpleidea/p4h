@@ -30,9 +30,25 @@ For this lesson, please do the following:
 * Is this a real DLM ?
 ** Name one edge condition to be aware of when using this feature
 
+Hint:
+* The oh-my-vagrant project automatically allocated a VIP and hostname for you!
+** Look inside of /etc/hosts on any machine and you'll see it!
+* The puppet-keepalived module is include in this p4h module
+** It's easy to setup, just use:
+class { '::keepalived::simple':
+	#ip => '',
+	vip => "${valid_vip}",	# add your own value
+	shorewall => false,	# or true if you prefer
+	#password => '',	# should be automatic!
+}
+
 Bonus:
 * Does it ever make sense to have more than one VIP?
 ** If so should they always be co-located?
+
+Level 42:
+* Add Exec['again'] support to puppet-keepalived's keepalived::simple class!
+** This should make using this utility more complete
 
 Happy hacking!\n",
 	}
