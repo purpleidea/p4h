@@ -29,6 +29,13 @@ For this lesson, please do the following:
 ** Be sure that it does some parameter validation
 *** Remember: data from the host must be validated before it goes into a fact!
 
+Hint:
+* Break this problem down into three pieces to understand it better
+** Creation of a file with some data
+** Reading into a fact, from files that contain data
+** Using the facts inside your catalog
+*** This then gets used with exported resources which we'll learn about shortly
+
 Bonus:
 * Implement a fact exchange that can generate a unique (UUID) default
 * What happens if a node goes down without saying goodbye?
