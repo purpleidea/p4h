@@ -25,11 +25,11 @@ For this lesson, please do the following:
 * Use the `cron` type
 * Use the `file` type to create a folder with another file inside
 * Use the `host` type to create an /etc/hosts entry
-* Use the `mount` type (a bind mount is okay)
 
 Bonus:
 * Use the `augeas` type		# to be used in emergencies or special cases!
 ** Name one use for the `augeas` type...
+* Use the `mount` type (a bind mount is okay)
 
 Level 42:
 * Learn what the resources type is for -- use with caution
