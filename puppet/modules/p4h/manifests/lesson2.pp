@@ -25,12 +25,12 @@ For this lesson, please do the following:
 * Use the `inline_template` function	# optional, as it was covered in prep!
 * Use the `notice` function -- what is the difference between this and notify ?
 * Use the `regsubst` function -- highly useful for simple transformations
-* Use the `sha1` function -- useful for occasionally transforming / hashing
 * Use the `split` function -- highly useful -- why ?
 * Use the `sprintf` function -- very useful
 * Use the `template` function -- used most often with the file `type`
 
 Bonus:
+* Use the `sha1` function -- useful for occasionally transforming / hashing
 * Use the `shellquote` function -- occasionally it is useful
 * Use the `versioncmp` function -- has been quite useful for certain modules
 
