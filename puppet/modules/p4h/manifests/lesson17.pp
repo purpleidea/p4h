@@ -27,6 +27,7 @@ For this lesson, please do the following:
 *** Further complicate your life by learning the os-independent puppet part
 **** It's actually quite elegant, but it's not fun for the initial module code
 ***** And regrettably, it makes your code look a bit less readable than before
+* Read through the few 'os-independent-puppet' patterns i describe in my blog
 
 Bonus:
 * Submit a patch for Puppet-IPA or Puppet-Gluster to enhance the coverage
@@ -41,6 +42,7 @@ Level 42:
 **** I'd say 'Debian', but their wavering stance on systemd will be their death
 ***** http://linux.slashdot.org/story/14/11/08/1448234/joey-hess-resigns-from-debian
 ****** They need to go 100% systemd, ASAP, and help out with patches as needed!
+******* </rant over>
 
 Happy hacking!\n",
 	}
