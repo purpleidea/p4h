@@ -35,6 +35,9 @@ Bonus:
 Level 42:
 * Libify this technique for SSL certs
 ** Find an 'official' CA that lets you use an API to get your cert signed!
+*** This could now be possible with: `let's encrypt` - https://letsencrypt.org/
+**** https://www.eff.org/deeplinks/2014/11/certificate-authority-encrypt-entire-web
+***** Previously this would have required your own internal intermediate ca
 * Convince the FreeIPA guys to finish multi-master so that it works with this!
 ** I forget where the RFE is or if it's only verbal, but this might be related
 *** https://fedorahosted.org/freeipa/ticket/4302
